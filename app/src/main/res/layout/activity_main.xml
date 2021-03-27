@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#82B1FF"
+        android:divider="@android:drawable/divider_horizontal_textfield"
+        android:dividerPadding="5dp"
+        android:drawingCacheQuality="auto"
+        android:keepScreenOn="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:showDividers="middle">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Игроки"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="60dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/textView20"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="#FFEB3B"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/textView21"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/textView"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="#FFEB3B"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/textView2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/textView3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="#FFEB3B"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/textView4"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="КТО?"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="ГРИН"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view15"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view16"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view17"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view18"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view19"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view20"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view21"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:background="#FFFFFF"
+                android:text="МАСТАРД"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view8"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view9"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view10"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view11"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view12"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view13"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view14"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="ПИКОК"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view22"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view23"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view24"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view25"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view26"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view27"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view28"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="ПЛАМ"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view29"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view30"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view31"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view32"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view33"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view34"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view35"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="СКАРЛЕТ"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view36"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view37"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view38"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view39"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view40"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view41"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view42"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="ЧЕМ?"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal|left"
+                android:background="#FFFFFF"
+                android:text="ПОДСВЕЧНИК"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view43"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view44"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view45"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view46"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view47"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view48"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view49"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center|left"
+                android:background="#FFFFFF"
+                android:text="КИНЖАЛ"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view50"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view51"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view52"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view53"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view54"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view55"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view56"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal|left"
+                android:background="#FFFFFF"
+                android:text="РЕВОЛЬВЕР"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view64"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view65"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view66"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view67"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view68"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view69"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view70"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="48dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal|left"
+                android:background="#FFFFFF"
+                android:text="ВЕРЕВКА"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view71"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view72"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view73"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view74"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view75"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view76"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view77"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="48dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal|left"
+                android:background="#FFFFFF"
+                android:text="ГАЕЧНЫЙ КЛЮЧ"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view78"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view79"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view80"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view81"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view82"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view83"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view84"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="ГДЕ?"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="48dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal|left"
+                android:background="#FFFFFF"
+                android:text="БАЛЬНЫЙ ЗАЛ"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view85"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view86"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view87"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view88"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view89"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view90"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view91"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="48dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal|left"
+                android:background="#FFFFFF"
+                android:text="БИЛЬЯРДНАЯ"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view92"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view93"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view94"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view95"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view96"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view97"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view98"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="48dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal|left"
+                android:background="#FFFFFF"
+                android:text="ЗИМНИЙ САД"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view99"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view100"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view101"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view102"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view103"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view104"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view105"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:text="СТОЛОВАЯ"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view106"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view107"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view108"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view109"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view110"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view111"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view112"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:text="ВАННА"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view113"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view114"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view115"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view116"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view117"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view118"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view119"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:text="КУХНЯ"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view120"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view121"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view122"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view123"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view124"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view125"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view126"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:text="БИБЛИОТЕКА"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textSize="9sp"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view127"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view128"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view129"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view130"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view131"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view132"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view133"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:text="ГОСТИННАЯ"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view134"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view135"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view136"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view137"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view138"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view139"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view140"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?attr/dividerVertical"
+            android:dividerPadding="5dp"
+            android:drawingCacheQuality="auto"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal|left"
+                android:background="#FFFFFF"
+                android:backgroundTintMode="add"
+                android:text="КАБИНЕТ"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#673AB7"
+                android:textColorHint="#3F51B5"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <view
+                android:id="@+id/view141"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view142"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view143"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view144"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view145"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view146"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+            <view
+                android:id="@+id/view147"
+                class="com.shm.cluedoapp.TriStatesCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:translationX="14dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shmonodrom Entertaiment 2020 (c) All rights reserved"
+                android:textSize="2sp" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
